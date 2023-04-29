@@ -1,6 +1,6 @@
 openpyxl
 pandas
-numpy==1.23.5
+numpy
 seaborn
 plotly
 scikit-learn
