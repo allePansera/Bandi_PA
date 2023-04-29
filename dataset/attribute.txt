@@ -1,0 +1,48 @@
+https://dati.mit.gov.it/catalog/dataset/scp/resource/1f08fc66-0b04-4c1c-a398-cdb17f3ea8f4
+
+- Feat. 1: dt_upd (string - dd/mm/yyyy)
+- Feat. 2: id_gara (string - inutile)
+- Feat. 3: oggetto gara (string - valutare estrazioni singole parole)
+- Feat. 4: numero gara ANAC (string - inutile)
+- Feat. 5: settore (da classificare, stringa)
+- Feat. 6: modalità realizzazione (da classificare? stringa)
+- Feat. 7: importo (verificare se va convertito da stringa a float)
+- Feat. 8: num_tot_lotti
+- Feat. 9: rup
+- Feat. 10: codice_fiscale_stazione_appaltante
+- Feat. 11: denominazione_stazione_appaltante
+- Feat. 12: provincia_stazione_appaltante
+- Feat. 13: codice_istat_stazione_appaltante
+- Feat. 14: ufficio
+- Feat. 15: la_sa_agisce_per_conto_di_altro_soggetto
+- Feat. 15: soggetto_per_cui_agisce_la_sa
+- Feat. 16: id_lotto
+- Feat. 17: cig
+- Feat. 18: oggetto_lotto
+- Feat. 19: nr_lotto
+- Feat. 20: somma_urgenza
+- Feat. 21: tipo_appalto
+- Feat. 22: tipo_procedura
+- Feat. 23: criterio_aggiudicazione
+- Feat. 24: imp_lotto_netto_sicurezza
+- Feat. 25: imp_sicurezza
+- Feat. 26: imp_lotto
+- Feat. 27: cup
+- Feat. 28: cpv
+- Feat. 29: categoria_prevalente
+- Feat. 30: classifica
+- Feat. 31: luogo_esecuzione_istat
+- Feat. 32: luogo_esecuzione_nuts
+- Feat. 33: num_ordine
+- Feat. 34: tipo_atto_o_documento
+- Feat. 35: data_pubblicazione_esito
+- Feat. 36: ribasso_di_aggiudicazione
+- Feat. 37: offerta_in_aumento
+- Feat. 38: imp_di_aggiudicazione
+- Feat. 39: data_aggiudicazione_definitiva
+- Feat. 40: data_pubblicazione_scp
+- Feat. 41: id_gruppo
+- Feat. 42: ruolo
+- Feat. 43: aggiudicatario
+- Feat. 44: cf_aggiudicatario
+- Feat. 45: url_esito

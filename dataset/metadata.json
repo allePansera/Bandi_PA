@@ -1,0 +1,284 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "@id": "e1d07a87-1866-4def-ae77-f1084eac88e6",
+            "@type": "table",
+            "url": "https://dati.mit.gov.it/catalog/dataset/scp/resource/e1d07a87-1866-4def-ae77-f1084eac88e6",
+            "primaryKey": "id",
+            "aboutURL": "http://dati.mit.gov.it/catalog/dataset/scp/{id}",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "id_gara",
+                        "datatype": "number",
+                        "dc:description": "Codice univoco gara"
+                    },
+                    {
+                        "name": "nr_lotto",
+                        "datatype": "string",
+                        "dc:description": "Numero lotto interno al bando"
+                    },
+                    {
+                        "name": "codice_fiscale_stazione_appaltante",
+                        "datatype": {
+                            "base": "string",
+                            "format": "IN_COMPILAZIONE | PUBBLICATO | IN_MODIFICA"
+                        },
+                        "dc:description": "Codice fiscale stazione appaltante"
+                    },
+                    {
+                        "name": "denominazione_stazione_appaltante",
+                        "datatype": "string",
+                        "dc:description": "Denominazione stazione appaltante"
+                    },
+                    {
+                        "name": "data_pubb_bando_scp",
+                        "datatype": {
+                            "base": "date",
+                            "format": "dd/mm/yyyy"
+                        },
+                        "dc:description": "Data della (prima) pubblicazione del bando sul sistema"
+                    },
+                    {
+                        "name": "tipo_bando",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Lavori | Servizi | Forniture"
+                        },
+                        "dc:description": "Tipo di bando"
+                    },
+                    {
+                        "name": "tipo_settore",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Ordinario | Speciale"
+                        },
+                        "dc:description": "Tipo di settore"
+                    },
+                    {
+                        "name": "infr_strategica",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Infrastruttura strategica"
+                    },
+                    {
+                        "name": "oggetto",
+                        "datatype": "string",
+                        "dc:description": "Oggetto del bando"
+                    },
+                    {
+                        "name": "tipo_intervento",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Nuova costruzione | Demolizione | Recupero | Ristrutturazione | Restauro | Manutenzione ordinaria | Manutenzione straordinaria | Completamento | Ampliamento | Altro"
+                        },
+                        "dc:description": "Tipologia intervento"
+                    },
+                    {
+                        "name": "rup",
+                        "datatype": "string",
+                        "dc:description": "Nome e cognome RUP"
+                    },
+                    {
+                        "name": "luogo_esecuzione",
+                        "datatype": "string",
+                        "dc:description": "comune luogo di esecuzione dei lavori"
+                    },
+                    {
+                        "name": "cup",
+                        "datatype": "string",
+                        "dc:description": "Codice identificativo gara"
+                    },
+                    {
+                        "name": "cig",
+                        "datatype": "string",
+                        "dc:description": "Codice Unico Progetto"
+                    },
+                    {
+                        "name": "importo",
+                        "datatype": "number",
+                        "dc:description": "Importo del lotto compresi gli oneri per la sicurezza (IVA esclusa)"
+                    },
+                    {
+                        "name": "cpv",
+                        "datatype": "string",
+                        "dc:description": "Codice CPV principale"
+                    },
+                    {
+                        "name": "categoria",
+                        "datatype": "string",
+                        "dc:description": "Codice categoria prevalente"
+                    },
+                    {
+                        "name": "classe",
+                        "datatype": "string",
+                        "dc:description": "Classe"
+                    },
+                    {
+                        "name": "imp_lavori",
+                        "datatype": "number",
+                        "dc:description": "Importo complessivo dei lavori a base di gara compresi gli oneri per la sicurezza ovvero Valore stimato dell'intervento in caso di Concessione\n (sempre IVA esclusa)"
+                    },
+                    {
+                        "name": "tipo_procedura",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Procedura aperta | Procedura ristretta | Procedura negoziata | Dialogo competitivo | Accordo quadro"
+                        },
+                        "dc:description": "Indicare il tipo di procedura"
+                    },
+                    {
+                        "name": "asta_elettronica",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Ricorso all'asta elettronica"
+                    },
+                    {
+                        "name": "forcella",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Forcella ai sensi dell'art.62 d.lgs. 163/06"
+                    },
+                    {
+                        "name": "appalto_riservato",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Appalto riservato ai sensi dell'art.52 d.lgs. 163/06"
+                    },
+                    {
+                        "name": "data_pubb_guue",
+                        "datatype": {
+                            "base": "date",
+                            "format": "dd/mm/yyyy"
+                        },
+                        "dc:description": "Data pubblicazione sulla GUUE"
+                    },
+                    {
+                        "name": "data_pubb_guri",
+                        "datatype": {
+                            "base": "date",
+                            "format": "dd/mm/yyyy"
+                        },
+                        "dc:description": "Data pubblicazione sulla GURI"
+                    },
+                    {
+                        "name": "data_pubb_albo",
+                        "datatype": {
+                            "base": "date",
+                            "format": "dd/mm/yyyy"
+                        },
+                        "dc:description": "Data pubblicazione sull’Albo Pretorio"
+                    },
+                    {
+                        "name": "url_profilo_comm",
+                        "datatype": "string",
+                        "dc:description": "Indirizzo web profilo committente"
+                    },
+                    {
+                        "name": "num_quotidiani_naz",
+                        "datatype": "number",
+                        "dc:description": "Numero quotidiani Nazionali ove si è pubblicato"
+                    },
+                    {
+                        "name": "num_quotidiani_loc",
+                        "datatype": "number",
+                        "dc:description": "Numero quotidiani Locali ove si è pubblicato"
+                    },
+                    {
+                        "name": "proc_accelerata",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "E' stata utilizzata la procedura accelerata per ragioni di urgenza"
+                    },
+                    {
+                        "name": "preinformazione",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "E' stata effettuata la preinformazione"
+                    },
+                    {
+                        "name": "termine_ridotto",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "E' stato utilizzato il termine ridotto con avviso di preinformazione"
+                    },
+                    {
+                        "name": "termine_pres_dom_off",
+                        "datatype": {
+                            "base": "date",
+                            "format": "dd/mm/yyyy"
+                        },
+                        "dc:description": "Data entro cui le imprese devono presentare richiesta di invito o presentare offerta\n (NB: Questa è la data di scadenza del bando)"
+                    },
+                    {
+                        "name": "num_gio_term_esec",
+                        "datatype": "number",
+                        "dc:description": "Numero giorni per Termine di esecuzione dei lavori"
+                    },
+                    {
+                        "name": "fp_dir_prelaz",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Procedura di cui all'art. 153, c. 15 - Individuazione promotore prescelto\n(solo se Finanza di progetto)"
+                    },
+                    {
+                        "name": "fp_modif_prog_prel",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "6.1.1 Art. 153, comma 3, lett. a) D.Lgs 163/06 e s.m.i.: Possibilità per il promotore di apportare modifiche al progetto preliminare\n Indicare (Si o No)"
+                    },
+                    {
+                        "name": "fp_accett_mod_prog_prel",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "6.1.2 Art. 153, comma 3, lett. b) D.Lgs 163/06 e s.m.i.: In caso di mancata accettazione da parte del promotore, possibilità per i concorrenti successivi in graduatoria di accettare di apportare modifiche al progetto preliminare"
+                    },
+                    {
+                        "name": "fp_obbl_cost_soc_prog",
+                        "datatype": {
+                            "base": "string",
+                            "format": "SI | NO"
+                        },
+                        "dc:description": "Facoltà o obbligo per il concessionario di costituire la società di progetto"
+                    },
+                    {
+                        "name": "fp_durata_conces",
+                        "datatype": "string",
+                        "dc:description": "Durata massima della concessione in anni"
+                    },
+                    {
+                        "name": "fp_note",
+                        "datatype": "string",
+                        "dc:description": "Eventuali note per bandi di finanza di progetto\n Solo per FP"
+                    },
+                    {
+                        "name": "url",
+                        "datatype": "string",
+                        "dc:description": "Url pubblicazione bando nel sistema SCP"
+                    }
+                ]
+            }
+        }
+    ]
+}

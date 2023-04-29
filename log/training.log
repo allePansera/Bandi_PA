@@ -1,0 +1,9 @@
+2023-04-29 08:31:40,490; INFO: Running DataFrame re-construction
+2023-04-29 08:31:41,168; INFO: Classifier production - RF...
+2023-04-29 10:09:20,751; INFO: Classifier produced in 50.77sec
+2023-04-29 10:09:23,419; INFO: F1 score: 0.9615017988376742
+2023-04-29 10:09:23,419; INFO: Good borrower prediction: 37.49%
+2023-04-29 10:09:23,419; INFO: Bad borrower prediction: 98.26%
+2023-04-29 10:09:23,420; INFO: FDR: 98.0%
+2023-04-29 10:09:23,420; INFO: Precision: 94.0%
+2023-04-29 10:09:23,420; INFO: Classifier stored...

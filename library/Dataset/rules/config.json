@@ -1,0 +1,73 @@
+{
+  "cols": [
+    {
+      "key": "settore",
+      "replacing": true
+    },
+    {
+      "key": "modalita_realizzazione",
+      "replacing": true
+    },
+    {
+      "key": "importo_gara",
+      "replacing": false
+    },
+    {
+      "key": "num_tot_lotti",
+      "replacing": false
+    },
+    {
+      "key": "rup",
+      "replacing": true
+    },
+    {
+      "key": "codice_fiscale_stazione_appaltante",
+      "replacing": true
+    },
+    {
+      "key": "codice_istat_stazione_appaltante",
+      "replacing": true
+    },
+    {
+      "key": "somma_urgenza",
+      "replacing": true
+    },
+    {
+      "key": "tipo_appalto",
+      "replacing": true
+    },
+    {
+      "key": "tipo_procedura",
+      "replacing": true
+    },
+    {
+      "key": "criterio_aggiudicazione",
+      "replacing": true
+    },
+    {
+      "key": "imp_lotto_netto_sicurezza",
+      "replacing": false
+    },
+    {
+      "key": "imp_sicurezza",
+      "replacing": false
+    },
+    {
+      "key": "imp_lotto",
+      "replacing": false
+    },
+    {
+      "key": "categoria_prevalente",
+      "replacing": true
+    },
+    {
+      "key": "tipo_atto_o_documento",
+      "replacing": true
+    },
+    {
+      "key": "cf_aggiudicatario",
+      "replacing": false,
+      "target": true
+    }
+  ]
+}
